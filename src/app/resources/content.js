@@ -62,7 +62,7 @@ const home = {
     ),
   },
   work: {
-    // Comming Soon
+    // Coming Soon
   },
   studies: {
     display: true,
