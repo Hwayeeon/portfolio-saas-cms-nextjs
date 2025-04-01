@@ -38,7 +38,7 @@ const social = [
 const home = {
   label: "Home",
   title: `${person.firstName} Portfolio`,
-  description: `Welcome to {person.name} Portfolio as a {person.role[0]}.`,
+  description: `Welcome to ${person.name} Portfolio as a ${person.role[0]}.`,
   tableOfContent: {
     display: true,
     subItems: false,
