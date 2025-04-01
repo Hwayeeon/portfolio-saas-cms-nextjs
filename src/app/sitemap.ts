@@ -17,7 +17,7 @@ export default function sitemap() {
     lastmod: post.metadata.publishedAt,
   }));
 
-  const activeRoutes = (Object.keys(routesConfig) as (keyof typeof routesConfig)[]).filter((route) => routesConfig[route]);
+  const activeRoutes = (Object.keys(routesConfig) as (keyof typeof routesConfig)[]).filter((route) => routesConfig[route].active);
   
   const routes = activeRoutes.map((route) => ({
     url: `https://${baseURL}${route !== "/" ? route : ""}`,
