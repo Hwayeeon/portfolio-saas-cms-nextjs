@@ -37,7 +37,7 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `{person.name} Portfolio`,
+  title: `${person.firstName} Portfolio`,
   description: `Welcome to {person.name} Portfolio as a {person.role[0]}.`,
   tableOfContent: {
     display: true,
@@ -54,7 +54,10 @@ const home = {
     title: "introduction",
     description: (
       <>
-        Hello my name is Davidson Rafael is a Software Engineer, Web Developer, and Mobile Developer. I am a person who is passionate about technology and programming. I have a lot of experience in developing web and mobile applications. I am also a person who is always eager to learn new things and always wants to improve my skills. I am also a person who is always eager to learn new things and always wants to improve my skills.
+        Hi, I&aposm Davidson Rafael, a Software Engineer specializing in web and mobile development.  
+        I help businesses and startups build scalable, high-performance applications using modern technologies.  
+        With extensive experience in developing user-friendly and efficient digital solutions,  
+        I am always eager to learn, innovate, and deliver impactful software. 
       </>
     ),
   },
@@ -64,16 +67,16 @@ const home = {
   studies: {
     display: true,
     title: "Studies",
-    instutions: [
+    institutions: [
       {
         name: "Krida Wacana Christian University",
         location: "Jakarta, Indonesia",
         degree: "Bachelor of Computer Science",
         major: "Computer Science",
-        description: <>Studies Sofrware Engineering</>
+        description: <>Studying Software Engineering and related fields.</>
       },
     ],
-  }
 }
+};
 
 export { person, social, home };
