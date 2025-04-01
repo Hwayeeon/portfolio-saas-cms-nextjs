@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-saas-cms",
-  "version": "0.1.0",
+  "name": "portfolio-saas-cms-nextjs",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
